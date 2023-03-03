@@ -10,7 +10,7 @@ export default function Layout({ children }) {
           <div className={styles.cloud_two}></div>
         </div>
         <div className="right flex flex-col justify-evenly"> {/* 오른쪽 */}
-          <div className="text-center py-10">
+          <div className="text-center">
             {children}
           </div>
         </div>
